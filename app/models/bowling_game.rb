@@ -1,8 +1,7 @@
 class BowlingGame
 
 	def initialize
-		@score = 0
-		@rolls = Array.new(22, 0)
+		@rolls = Array.new(21, 0)
 		@current_roll = 0
 	end
 
